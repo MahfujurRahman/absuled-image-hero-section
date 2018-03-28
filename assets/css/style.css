@@ -1,0 +1,92 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300i,400,700|Open+Sans:300,400,600');
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+body {
+    background-color: #ebeaf0;
+    font-family: 'Open Sans', sans-serif;
+}
+a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 80px 0px;
+  }
+  .hero-bg {
+    position: relative;
+    background-color: #76d3da;
+  }
+  .hero-img {
+    position: absolute;
+    top: 0;
+    right: -30px;
+  }
+  
+.slide-text {
+    height: 822px;
+    color: #fff;
+    max-width: 460px;
+    padding: 70px 30px 80px 80px;
+  }
+  .under-line {
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 8px;
+  }
+  .under-line:after {
+    position: absolute;
+    width: 40px;
+    height: 3px;
+    content: "";
+    background-color: #fff;
+    bottom: 0;
+    left: 2px;
+    border-radius: 50px;
+  }
+  .slide-text h1 {
+    font-size: 50px;
+    margin: 80px 0px;
+  }
+  .slide-text p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 40px;
+  }
+  .box-bottun {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    background-color: #f4f551;
+    padding: 12px 30px;
+    border-radius: 50px;
+    box-shadow: -4px 6px 35px #f4f551;
+    display: inline-block;
+  }
